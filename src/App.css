@@ -1,0 +1,33 @@
+.age-calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type='date'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5621e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .age-calculator {
+    max-width: 600px;
+  }
+}
